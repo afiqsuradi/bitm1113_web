@@ -13,19 +13,19 @@ export default function Gallery() {
     return (
         <div className="text-white container mx-auto flex flex-col gap-20">
             <h1 className="text-5xl text-center font-bold tracking-wide">Merchandise</h1>
-            <div className="flex flex-row gap-8 justify-center [&>*]:w-full">
-                <div className="flex flex-col gap-8 [&>*]:w-full [&>*]:rounded-xl [&>*]:overflow-hidden">
+            <div className="flex flex-row gap-2 lg:gap-8 justify-center [&>*]:w-full max-lg:px-6">
+                <div className="flex flex-col gap-2 lg:gap-8 [&>*]:w-full [&>*]:rounded-xl [&>*]:overflow-hidden">
                     <Image src={MugMockup} alt="Mug Mockup" />
                     <Image src={HoodieMockup} alt="Hoodie Mockup" />
                     <Image src={MaskMockup} alt="Mask Mockup" />
                 </div>
-                <div className="flex flex-col gap-8 [&>*]:w-full [&>*]:rounded-xl [&>*]:overflow-hidden">
+                <div className="flex flex-col gap-2 lg:gap-8 [&>*]:w-full [&>*]:rounded-xl [&>*]:overflow-hidden">
 
                     <Image src={PhoneMockup} alt="Phone Mockup" />
                     <Image src={ShirtMockup} alt="Shirt Mockup" />
                     <Image src={PillowMockup} alt="Pillow Mockup" />
                 </div>
-                <div className="flex flex-col gap-8 [&>*]:w-full [&>*]:rounded-xl [&>*]:overflow-hidden">
+                <div className="flex flex-col gap-2 lg:gap-8 [&>*]:w-full [&>*]:rounded-xl [&>*]:overflow-hidden">
 
                     <Image src={CupMockup} alt="Cup Mockup" />
                     <Image src={Shirt2Mockup} alt="Shirt Mockup" />

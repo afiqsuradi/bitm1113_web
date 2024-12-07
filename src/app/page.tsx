@@ -1,4 +1,5 @@
 import About from "./_sections/about";
+import ContactForm from "./_sections/contact-form";
 import { DesignPrinciple } from "./_sections/design-principle";
 import Gallery from "./_sections/gallery";
 import Hero from "./_sections/hero";
@@ -40,6 +41,9 @@ export default function Home() {
       </div>
       <section className="bg-[#3A0018] py-20">
         <Gallery />
+      </section>
+      <section className="bg-[#3A0018]">
+        <ContactForm />
       </section>
     </div>
   );

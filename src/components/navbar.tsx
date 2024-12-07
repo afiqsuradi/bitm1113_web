@@ -3,7 +3,7 @@ import logo from "../../public/logo.svg"
 export default function Navbar() {
     return (
         <header className="fixed top-0 left-0 z-50 w-full py-10 text-white">
-            <div className="container mx-auto">
+            <div className="container mx-auto max-lg:px-6">
 
                 <nav>
                     <ul className="flex flex-row justify-between items-center">
