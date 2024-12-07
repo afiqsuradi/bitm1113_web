@@ -3,7 +3,6 @@ import Image from "next/image"
 import logo from "../../public/logo.svg"
 import { useState, useEffect } from "react"
 import { CiMenuBurger } from "react-icons/ci";
-import { IoMdClose } from "react-icons/io";
 import clsx from "clsx";
 
 const LINKS = {
