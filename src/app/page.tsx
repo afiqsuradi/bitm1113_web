@@ -3,6 +3,7 @@ import ContactForm from "./_sections/contact-form";
 import { DesignPrinciple } from "./_sections/design-principle";
 import Gallery from "./_sections/gallery";
 import Hero from "./_sections/hero";
+import VideoPromotion from "./_sections/video-promotion";
 
 
 export default function Home() {
@@ -29,8 +30,11 @@ export default function Home() {
           </svg>
         </div>
       </div>
-      <section className="my-64">
+      <section className="mt-64 mb-20">
         <DesignPrinciple />
+      </section>
+      <section className="mb-64">
+        <VideoPromotion />
       </section>
       <div className="relative block">
         <div className="divider-bottom divider-140">
