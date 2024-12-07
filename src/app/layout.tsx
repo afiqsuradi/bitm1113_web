@@ -17,8 +17,8 @@ export default function RootLayout({
       <body
         className={`${poppins.className} antialiased`}
       >
-        <main className="overflow-hidden relative">
-          <Navbar></Navbar>
+        <main className="overflow-hidden">
+          <Navbar />
           {children}
         </main>
       </body>

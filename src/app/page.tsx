@@ -9,7 +9,7 @@ import VideoPromotion from "./_sections/video-promotion";
 export default function Home() {
   return (
     <div className="relative flex flex-col">
-      <section className="bg-[#3A0018] text-white">
+      <section className="bg-[#3A0018] text-white" id="main">
 
         <Hero />
       </section>
@@ -20,7 +20,7 @@ export default function Home() {
           </svg>
         </div>
       </div>
-      <section className="bg-[#FFE2C5]">
+      <section className="bg-[#FFE2C5]" id="about">
         <About />
       </section>
       <div className="relative pt-18">
@@ -33,7 +33,7 @@ export default function Home() {
       <section className="mt-64 mb-20">
         <DesignPrinciple />
       </section>
-      <section className="mb-64">
+      <section className="mb-64" id="video-promotion">
         <VideoPromotion />
       </section>
       <div className="relative block">
@@ -43,10 +43,10 @@ export default function Home() {
           </svg>
         </div>
       </div>
-      <section className="bg-[#3A0018] py-20">
+      <section className="bg-[#3A0018] py-20" id="merchandise">
         <Gallery />
       </section>
-      <section className="bg-[#3A0018]">
+      <section className="bg-[#3A0018]" id="contact">
         <ContactForm />
       </section>
     </div>
