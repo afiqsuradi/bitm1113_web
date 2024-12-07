@@ -12,7 +12,11 @@ import Shirt2Mockup from "../../../public/mockups/shirt-2.png"
 export default function Gallery() {
     return (
         <div className="text-white container mx-auto flex flex-col gap-20">
-            <h1 className="text-5xl text-center font-bold tracking-wide">Merchandise</h1>
+            <div className="text-center space-y-4">
+                <h1 className="text-5xl font-bold tracking-wide">Merchandise</h1>
+                <p className="text-lg">These mockups were created using ai tools from <a href="https://mockey.ai/" className="transition-all duration-300 text-[#FFCF85] hover:text-[#FFF4E6] cursor-pointer">mockey.ai</a> and <a className="transition-all duration-300 text-[#FFCF85] hover:text-[#FFF4E6] cursor-pointer" href="https://www.canva.com/mockups">canva</a></p>
+            </div>
+
             <div className="flex flex-row gap-2 lg:gap-8 justify-center [&>*]:w-full max-lg:px-6">
                 <div className="flex flex-col gap-2 lg:gap-8 [&>*]:w-full [&>*]:rounded-xl [&>*]:overflow-hidden">
                     <Image src={MugMockup} alt="Mug Mockup" />
