@@ -20,22 +20,42 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.custom-shape-divider-bottom-1733558555 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
+@layer utilities{
+  .divider-top{
+    @apply absolute top-0 left-0 w-full overflow-hidden leading-[0]
+  }
+
+  .divider-bottom{
+    @apply absolute bottom-0 left-0 w-full overflow-hidden leading-[0]
+  }
 }
 
-.custom-shape-divider-bottom-1733558555 svg {
+
+.divider-164 svg {
   position: relative;
   display: block;
   width: calc(164% + 1.3px);
   height: 103px;
 }
 
+.divider-140 svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 184px;
+}
+
+.divider-130 svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 184px;
+}
+
 .custom-shape-divider-bottom-1733558555 .shape-fill {
   fill: #FFE2C5;
+}
+
+.custom-shape-divider-top-1733581031 .shape-fill {
+  fill: #3A0018;
 }

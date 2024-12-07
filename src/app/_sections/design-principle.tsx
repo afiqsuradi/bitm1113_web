@@ -7,7 +7,7 @@ import Card from "@/components/card";
 export function DesignPrinciple() {
     return (
         <div className="container mx-auto z-10">
-            <h1 className="font-bold text-5xl mb-6 text-[#3A0018] text-center">Design Principle</h1>
+            <h1 className="font-bold text-5xl mb-20 text-[#3A0018] text-center">Design Principle</h1>
             <div className="grid auto-rows-auto max-lg:gap-12 lg:grid-cols-3 place-items-center p-6">
                 <Card icon={ContrastIcon} iconAlt="Contrast icon" title="Contrast">
                     The contrast between the light skin tone and the dark red teardrop mirrors the duality of human nature,
