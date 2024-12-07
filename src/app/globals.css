@@ -7,15 +7,35 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-shape-divider-bottom-1733558555 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1733558555 svg {
+  position: relative;
+  display: block;
+  width: calc(164% + 1.3px);
+  height: 103px;
+}
+
+.custom-shape-divider-bottom-1733558555 .shape-fill {
+  fill: #FFE2C5;
 }
